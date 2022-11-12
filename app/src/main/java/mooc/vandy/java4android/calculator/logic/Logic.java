@@ -28,7 +28,13 @@ public class Logic implements LogicInterface {
      * Perform the operation on argumentOne and argumentTwo.
      */
     public void process(int argumentOne, int argumentTwo, int operation) {
-        // TODO - Put your code here.
-        
+        // TODO - Put your code here
+
+        if(operation == 1) {
+            Add add = new Add();
+            add.operate(argumentOne, argumentTwo);
+
+        }
+
     }
 }
