@@ -33,7 +33,7 @@ public class Logic implements LogicInterface {
         if(operation == 1) {
             Add add = new Add();
             add.operate(argumentOne, argumentTwo);
-
+            mOut.print(add.toString());
         }
 
     }
