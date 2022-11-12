@@ -6,7 +6,7 @@ package mooc.vandy.java4android.calculator.logic;
 public class Divide {
     private Double div;
     private int num1, num2;
-    int excepFlag = 0;
+    String excepFlag = new String();
 
     public Divide(int num1, int num2) {
         this.num1 = num1;
@@ -18,15 +18,11 @@ public class Divide {
             div = (double)num1/num2;
         }
         catch (ArithmeticException e) {
-            excepFlag = 1;
+            excepFlag = "Divide by zero operation is not possible";
         }
     }
 
     public String toString() {
-
-        if(excepFlag == 1)
-            return "Divide by zero operation is not possible";
-        else
-            return div.toString();
+            return div.toString()+excepFlag;
     }
 }
