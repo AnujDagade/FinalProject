@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.color.colorAccent"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="160"
+            endLine="5"
+            endColumn="30"
+            endOffset="178"/>
+        <location id="R.color.colorPrimary"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="31"
+            endOffset="81"/>
+        <location id="R.color.colorPrimaryDark"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="109"
+            endLine="4"
+            endColumn="35"
+            endOffset="132"/>
+        <entry
+            name="model"
+            string="array[math_options(U)],color[colorPrimary(D),colorPrimaryDark(D),colorAccent(D)],dimen[activity_vertical_margin(U),activity_horizontal_margin(U)],id[valueTwoEditText(U),valueOneEditText(U),relativeLayout(D),calculate_button(U),results(U),mathSpinner(U)],layout[activity_main(U),spinner_item(U)],mipmap[ic_launcher(U)],string[app_name(U)],style[TextAppearance_AppCompat_Large(R)];c^4^5^10^b^9^a^6^7;;;"/>
+    </map>
+
+</incidents>
