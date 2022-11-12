@@ -1,5 +1,7 @@
 package mooc.vandy.java4android.calculator.logic;
 
 public interface Calc {
-    public void operate(int num1, int num2);
+
+    public void operate();
+    public String toString();
 }
