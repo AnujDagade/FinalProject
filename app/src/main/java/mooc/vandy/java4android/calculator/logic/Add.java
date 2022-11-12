@@ -12,7 +12,8 @@ public class Add implements Calc{
     }
 
     public String toString() {
-        return sum.toString();
+        //return sum.toString();
+        return "Gando";
     }
 
 }
