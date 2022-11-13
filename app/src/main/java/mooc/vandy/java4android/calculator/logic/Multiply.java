@@ -17,7 +17,4 @@ public class Multiply implements Calc{
         return result = String.valueOf(num1*num2);
     }
 
-
-
-
 }

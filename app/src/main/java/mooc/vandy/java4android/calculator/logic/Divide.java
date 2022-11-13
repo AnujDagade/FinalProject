@@ -6,7 +6,7 @@ package mooc.vandy.java4android.calculator.logic;
 public class Divide implements Calc{
     private String result;
     private int num1, num2;
-    public Integer excepFlag = 0;
+
 
     public Divide(int num1, int num2) {
         this.num1 = num1;
@@ -14,12 +14,17 @@ public class Divide implements Calc{
     }
 
     public String operate() {
+
+        /***
+         * <b>This handles divide by zero exception</b>
+         */
+
         try {
-            return result = String.valueOf((double)num1/num2);
+            return result = String.valueOf(num1/num2)+" R: "+ String.valueOf(num1%num2);
 
         }
-        catch (Exception e) {
-          return   result = "Infinity";
+        catch (ArithmeticException e) {
+          return  result = "Infinity";
 
         }
     }
