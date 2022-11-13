@@ -15,7 +15,7 @@ public class Divide {
 
     public void operate() {
         try {
-            //div = (double)num1/num2;
+            div = (double)num1/num2;
         }
         catch (ArithmeticException e) {
             excepFlag = 1;
