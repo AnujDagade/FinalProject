@@ -6,7 +6,7 @@ package mooc.vandy.java4android.calculator.logic;
 public class Divide {
     private Double div;
     private int num1, num2;
-    int excepFlag = 0;
+    Integer excepFlag = 0;
 
     public Divide(int num1, int num2) {
         this.num1 = num1;
@@ -23,6 +23,6 @@ public class Divide {
     }
 
     public String toString() {
-            return div.toString();
+            return excepFlag.toString();
     }
 }
