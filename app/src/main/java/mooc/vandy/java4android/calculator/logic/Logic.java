@@ -52,9 +52,9 @@ public class Logic implements LogicInterface {
                break;
            case DIVISION:
                Divide div = new Divide(argumentOne, argumentTwo);
-               div.operate();
+               //div.operate();
                //mOut.print(div.toString());
-               mOut.print(div.excepFlag.toString());
+               mOut.print(div.operate());
 
 
        }

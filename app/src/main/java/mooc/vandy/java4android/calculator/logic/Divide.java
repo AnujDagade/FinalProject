@@ -13,17 +13,18 @@ public class Divide {
         this.num2 = num2;
     }
 
-    public void operate() {
+    public String operate() {
         try {
             div = (double)num1/num2;
+            return div.toString();
         }
         catch (Exception e) {
-            excepFlag = 1;
+            return e.toString();
 
         }
     }
 
-    public String toStringtr() {
-            return excepFlag.toString();
-    }
+//    public String toStringtr() {
+//            return excepFlag.toString();
+//    }
 }
