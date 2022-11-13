@@ -23,7 +23,7 @@ public class Divide {
         }
     }
 
-    public String toString() {
+    public String toStringtr() {
             return excepFlag.toString();
     }
 }

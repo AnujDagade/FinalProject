@@ -53,7 +53,8 @@ public class Logic implements LogicInterface {
            case DIVISION:
                Divide div = new Divide(argumentOne, argumentTwo);
                div.operate();
-               mOut.print(div.toString());
+               //mOut.print(div.toString());
+               mOut.print(div.excepFlag.toString());
 
 
        }
