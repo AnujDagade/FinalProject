@@ -37,23 +37,18 @@ public class Logic implements LogicInterface {
        switch(operation) {
            case ADDITION:
                Add add = new Add(argumentOne, argumentTwo);
-               add.operate();
-               mOut.print(add.toString());
+               mOut.print(add.operate());
                break;
            case SUBTRACTION:
                Subtract sub = new Subtract(argumentOne, argumentTwo);
-               sub.operate();
-               mOut.print(sub.toString());
+               mOut.print(sub.operate());
                break;
            case MULTIPLICATION:
                Multiply mul = new Multiply(argumentOne, argumentTwo);
-               mul.operate();
-               mOut.print(mul.toString());
+               mOut.print(mul.operate());
                break;
            case DIVISION:
                Divide div = new Divide(argumentOne, argumentTwo);
-               //div.operate();
-               //mOut.print(div.toString());
                mOut.print(div.operate());
 
 

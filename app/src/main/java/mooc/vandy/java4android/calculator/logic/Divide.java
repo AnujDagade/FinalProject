@@ -3,8 +3,8 @@ package mooc.vandy.java4android.calculator.logic;
 /**
  * Perform the Divide operation.
  */
-public class Divide {
-    private Double div;
+public class Divide implements Calc{
+    private String result;
     private int num1, num2;
     public Integer excepFlag = 0;
 
@@ -15,16 +15,14 @@ public class Divide {
 
     public String operate() {
         try {
-            div = (double)num1/num2;
-            return div.toString();
+            return result = String.valueOf((double)num1/num2);
+
         }
         catch (Exception e) {
-            return e.toString();
+          return   result = "Infinity";
 
         }
     }
 
-//    public String toStringtr() {
-//            return excepFlag.toString();
-//    }
+
 }

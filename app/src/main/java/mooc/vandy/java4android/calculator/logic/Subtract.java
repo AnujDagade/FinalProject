@@ -6,7 +6,7 @@ package mooc.vandy.java4android.calculator.logic;
 public class Subtract implements Calc {
 
 
-    private Integer sub;
+    private String result;
     private int num1, num2;
 
     public Subtract(int num1, int num2) {
@@ -14,11 +14,9 @@ public class Subtract implements Calc {
         this.num2 = num2;
     }
 
-    public void operate() {
-        sub = num1-num2;
+    public String operate() {
+        return result = String.valueOf(num1-num2);
     }
 
-    public String toString() {
-        return sub.toString();
-    }
+
 }
